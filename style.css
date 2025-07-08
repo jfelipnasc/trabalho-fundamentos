@@ -1,0 +1,107 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6; /* Cor de fundo suave */
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Estilização do título principal h1 */
+h1 {
+    color: #0056b3; /* Cor diferente para o título */
+    text-align: center; /* Título centralizado */
+}
+
+/* Estilização do parágrafo de biografia */
+p {
+    font-size: 18px; /* Tamanho de fonte maior */
+    text-align: justify; /* Texto justificado */
+}
+
+/* Estilização da lista de hobbies */
+ul {
+    line-height: 2; /* Espaçamento maior entre os itens */
+}
+
+/* Estilização da imagem do hobby */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 450px; /* Tamanho adequado */
+    border-radius: 15px; /* Bordas arredondadas */
+}
+
+/* Estilização da tabela de países */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse; /* Remove espaço entre bordas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Bordas para células */
+    padding: 12px; /* Espaçamento interno */
+    text-align: center;
+}
+
+th {
+    background-color: #0056b3; /* Cor de fundo para o cabeçalho */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor para linhas pares, melhorando a leitura */
+}
+
+/* Imagens dentro da tabela */
+table img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px; /* Bordas levemente arredondadas */
+}
+
+/* Estilização do link */
+.link-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-weight: bold;
+}
+
+/* Efeito hover para o link */
+a:hover {
+    color: #d9534f; /* O link muda de cor ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* Estilização do botão */
+button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Container da mensagem JS */
+#messageContainer {
+    font-weight: bold;
+    color: #17a2b8;
+    text-align: left;
+}
